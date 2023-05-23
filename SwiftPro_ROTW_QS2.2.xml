@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+   <retriever>
+      <component name="ctf4u" groups="ctf ctf4u ctf44" src-type="url" path="ctf4u" 
+                 src="https://its-op-artifa01.wdc.com/artifactory/inand-ctf-global/ufs/SDR4U/Arbel/rc/1.5.0546.218824" 
+                 rev="CTF_SDR4U_Arbel_1.5.0546.218824.zip" operation="populate">
+        <extract />
+      </component>
+
+      <component name="vld-black" src-type="url" path="vld-black/" 
+                 src="https://its-op-artifa01.wdc.com/artifactory/inand-rel-global/rel/official/static_SWIFT_Pro_QS2.2" 
+                 rev="rel-default-static_SWIFT_Pro_QS2.2-official-1.0.233834.zip" operation="populate">
+        <extract />
+      </component>
+
+      <component name="fw" src-type="url" path="fw/" 
+                 src="https://its-op-artifa01.wdc.com/artifactory/inand-fw-global/daily/swift_pro/static_unified" 
+                 rev="swift_pro-unified_b0-static_unified-90d.2206.233428.zip" operation="populate">
+        <extract />
+      </component>
+
+      <component name="variations" src-type="url" path="variations/" 
+                 src="https://its-op-artifa01.wdc.com/artifactory/inand-rel-global/variations/ufs/rel/official/SWIFTPRO_QS2.2" 
+                 rev="ufs-rel-default-SWIFTPRO_QS2.2-official-320.zip" operation="populate">
+        <extract />
+      </component>
+   </retriever>
+</manifest>
